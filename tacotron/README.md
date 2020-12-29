@@ -43,3 +43,4 @@ python3 train.py --data_path=datasets/kss,datasets/son,datasets/hani --load_path
 python3 synthesizer.py --load_path logs/pretrained --text "안녕하세요" --num_speakers=3 --speaker_id=0
 ```
 ## Results
+Training attention on multi speaker model - Step 188000
