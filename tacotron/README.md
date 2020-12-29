@@ -32,3 +32,14 @@ apt-get install cuda=8.0.61-1
 
 dpkg -i "libcudnn6_6.0.21-1+cuda8.0_amd64.deb"
 ```
+### 2. Train Model
+Train Multi-Speaker Model
+```
+python3 train.py --data_path=datasets/kss,datasets/son,datasets/hani
+python3 train.py --data_path=datasets/kss,datasets/son,datasets/hani --load_path logs/kss+son+hani
+```
+### 3. Synthesize Audio
+```
+python3 synthesizer.py --load_path logs/pretrained --text "안녕하세요" --num_speakers=3 --speaker_id=0
+```
+## Results
