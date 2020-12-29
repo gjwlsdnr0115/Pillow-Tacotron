@@ -6,4 +6,5 @@
 - Google Vision API(OCR) + Tacotron
 - Trained model is stored on a server and called through a custom API
 
+[Xcode Project](./Pillow)
 [Tacotron Model](./tacotron)
