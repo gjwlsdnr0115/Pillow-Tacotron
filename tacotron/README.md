@@ -44,3 +44,6 @@ python3 synthesizer.py --load_path logs/pretrained --text "안녕하세요" --nu
 ```
 ## Results
 Training attention on multi speaker model - Step 188000
+
+
+<img src="assets/alignment.png" width="100%" height="100%">
